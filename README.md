@@ -5,6 +5,12 @@
 [Qna3 Ai](https://qna3.ai/)
 
 ### Quick start
+
+``` bash
+# .env
+WALLET_PRIVATEKEY=0xb5d8312d4428f7bceb2ecf4189498b795904e11c7427ea6580b04a91e8324508
+```
+
 ```js
 const wallet = new Wallet(process.env.WALLET_PRIVATEKEY);
 const qna3 = new Qna3(wallet, 206);
@@ -17,6 +23,11 @@ await qna3.checkIn();
 
 ```
 
+``` bash
+pnpm install
+
+pnpm run start
+```
 
 ## Auth by
 
